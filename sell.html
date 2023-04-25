@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweater Swap > Sell</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-con" href="/images/logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <style>
+    .sell-heading {
+      text-align: center;
+      padding: 20px;
+      font-size: 75px;
+      text-align: left;
+      font-weight: 400;
+    }
+    .formsField {
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 100px;
+    }
+    .fields {
+      width: 1000px;
+    }
+    .sectionHeadings {
+      font-size: 40px;
+    }
+    .dollarAmount {
+      text-align: right;
+    }
+    .submitButton {
+      width: 250px;
+      height: 75px;
+    }
+  </style>
+
+  <!--NavBar-->
+  <div class = "navBar">
+    <a class="active" href="Index.html">Home</a>
+    <a class="active" href="shop.html">Shop</a>
+    <a class="active" href="../html/sell.html">Sell</a>
+    <a class="active" href="about.html">About</a>
+  </div>
+
+  <div class = "logo">
+    <img src = "images/logo.png" width="100px">
+
+    <img src="/images/shoppingcart.png" class="icons">
+    <img src="/images/profileLogin.png" class = "icons">
+
+  </div>
+
+  <!--Heading-->
+  <h1 class="sell-heading">SELL</h1>
+  <hr>
+
+  <!--Body-->
+  <div class="formsField">
+    <form class="form">
+      <u><h3>Name of Product:</h3>  </u>
+      <input type="text" class="fields" name="nameOfProduct" value="" required placeholder="Be descriptive and accurate!"><br>
+
+      <span class="sectionHeadings"><b><u>Sports Specifics</u></b></span>
+      <div class="row">
+        <div class="col">
+          <u>League:</u><br>
+          <input type="radio" name="nameOfSport" style="vertical-align: middle; margin: 0px;" value="sportMlb" required> MLB<br>
+          <input type="radio" name="nameOfSport" style="vertical-align: middle; margin: 0px;" value="sportNhl" required> NHL<br>
+          <input type="radio" name="nameOfSport" style="vertical-align: middle; margin: 0px;" value="sportNfl" required> NFL<br>
+          <input type="radio" name="nameOfSport" style="vertical-align: middle; margin: 0px;" value="sportNba" required> NBA<br>
+          <input type="radio" name="nameOfSport" style="vertical-align: middle; margin: 0px;" value="sportMilb" required> MiLB<br>
+          <input type="radio" name="nameOfSport" style="vertical-align: middle; margin: 0px;" value="sportXfl" required> XFL<br>
+          <input type="radio" name="nameOfSport" style="vertical-align: middle; margin: 0px;" value="sportMisc" required> Other<br>
+        </div>
+        <div class="col">
+          <u>Teams:</u><br>
+          <div>
+            <select name="nameOfTeam">
+              <option disabled>MLB</option>
+              <option>Arizona Diamondbacks</option>
+              <option>Atlanta Braves</option>
+              <option>Baltimore Orioles</option>
+              <option>Boston Red Sox</option>
+              <option>Chicago Cubs</option>
+              <option>Chicago White Sox</option>
+              <option>Cincinnati Reds</option>
+              <option>Colorado Rockies</option>
+              <option>Detroit Tigers</option>
+              <option>Houston Astros</option>
+              <option>Kansas City Royals</option>
+              <option>Los Angeles Angels</option>
+              <option>Los Angeles Dodgers</option>
+              <option>Miami Marlins</option>
+              <option>Milwaukee Brewers</option>
+              <option>Minnesota Twins</option>
+              <option>New York Mets</option>
+              <option>New York Yankees</option>
+              <option>Oakland Athletics</option>
+              <option>Philadelphia Phillies</option>
+              <option>Pittsburgh Pirates</option>
+              <option>San Diego Padres</option>
+              <option>San Francisco Giants</option>
+              <option>Seattle Mariners</option>
+              <option>St. Louis Cardinals</option>
+              <option>Tampa Bay Rays</option>
+              <option>Texas Rangers</option>
+              <option>Toronto Blue Jays</option>
+              <option>Washington Nationals</option>
+
+              <option disabled>NHL</option>
+              <option>Anaheim Ducks</option>
+              <option>Arizona Coyotes</option>
+              <option>Boston Bruins</option>
+              <option>Buffalo Sabres</option>
+              <option>Calgary Flames</option>
+              <option>Carolina Hurricanes</option>
+              <option>Chicago Blackhawks</option>
+              <option>Colorado Avalanche</option>
+              <option>Columbus Blue Jackets</option>
+              <option>Dallas Stars</option>
+              <option>Detroit Red Wings</option>
+              <option>Edmonton Oilers</option>
+              <option>Florida Panthers</option>
+              <option>Los Angeles Kings</option>
+              <option>Minnesota Wild</option>
+              <option>Montreal Canadiens</option>
+              <option>Nashville Predators</option>
+              <option>New Jersey Devils</option>
+              <option>New York Islanders</option>
+              <option>New York Rangers</option>
+              <option>Ottawa Senators</option>
+              <option>Philadelphia Flyers</option>
+              <option>Pittsburgh Pirates</option>
+              <option>San Jose Sharks</option>
+              <option>Seattle Kraken</option>
+              <option>St. Louis Blues</option>
+              <option>Tampa Bay Lightning</option>
+              <option>Toronto Maple Leafs</option>
+              <option>Vancouver Canucks</option>
+              <option>Vegas Golden Knights</option>
+              <option>Washington Capitals</option>
+              <option>Winnipeg Jets</option>
+
+              <option disabled>NFL</option>
+              <option>Arizona Cardinals</option>
+              <option>Atlanta Falcons</option>
+              <option>Baltimore Ravens</option>
+              <option>Buffalo Bills</option>
+              <option>Carolina Panthers</option>
+              <option>Chicago Bears</option>
+              <option>Cincinnati Bengals</option>
+              <option>Cleveland Browns</option>
+              <option>Dallas Cowboys</option>
+              <option>Denver Broncos</option>
+              <option>Detroit Lions</option>
+              <option>Green Bay Packers</option>
+              <option>Houston Texans</option>
+              <option>Indianapolis Colts</option>
+              <option>Jacksonville Jaguars</option>
+              <option>Kansas City Chiefs</option>
+              <option>Las Vegas Raiders</option>
+              <option>Los Angeles Chargers</option>
+              <option>Los Angeles Rams</option>
+              <option>Miami Dolphins</option>
+              <option>Minnesota Vikings</option>
+              <option>New England Patriots</option>
+              <option>New Orleans Saints</option>
+              <option>New York Giants</option>
+              <option>New York Jets</option>
+              <option>Philadelphia Eagles</option>
+              <option>Pittsburgh Steelers</option>
+              <option>San Francisco 49ers</option>
+              <option>Seattle Seahawks</option>
+              <option>Tampa Bay Buccaneers</option>
+              <option>Tennessee Titans</option>
+              <option>Washington Commanders</option>
+
+
+              <option disabled>Miscellaneous</option>
+              <option>Defunct</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col">
+          <u>Player Name:</u><br>
+          <input type="text" name="nameOfPlayer" value="" required placeholder="Barry Bonds"><br>
+          <u>Player Number:</u><br>
+          <input type="text" name="playerNumber" value="" required placeholder="25"><br>
+        </div>
+      </div>
+
+      <span class="sectionHeadings"><b><u>Item Specifics</u></b></span>
+      <div class="row">
+        <div class="col">
+          <u>Brand:</u><br>
+          <select name="listOfBrands">
+            <option>Fanatics</option>
+            <option>Majestic</option>
+            <option>Nike</option>
+            <option>Starter</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="col">
+          <u>Size:</u><br>
+          <select name="listOfSizes">
+            <option>Kids</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>XXXL</option>
+            <option>XXXXL</option>
+          </select>
+        </div>
+        <div class = "col">
+          <u>Autographed?</u><br>
+          <input type="radio" name="yesNoButton" style="vertical-align: middle; margin: 0px;" value="yesAuto" required> Yes<br>
+          <input type="radio" name="yesNoButton" style="vertical-align: middle; margin: 0px;" value="noAuto" required> No<br>
+        </div>
+        <div class="col">
+          <u>Condition:</u><br>
+          <select name="listOfSizes">
+            <option>Factory Sealed</option>
+            <option>New</option>
+            <option>Lightly Used</option>
+            <option>Worn</option>
+            <option>Very Worn</option>
+          </select>
+        </div>
+      </div>
+
+      <span class="sectionHeadings"><b><u>Pricing</u></b></span>
+      <div class="row">
+        <div class="col">
+          <u>Seller Options</u><br>
+          <select class="listOfSellerOptions">
+            <option>Sell</option>
+            <option>Auction</option>
+          </select>
+        </div>
+        <div class="col">
+          <u>Price:</u><br>
+          <input type="text" name="priceAmount" class="dollarAmount" value="" required placeholder="$29.99"><br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <button type="submit" class="submitButton">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    var formEl = document.querySelector(".form");
+    formEl.addEventListener("submit", event => {
+      event.preventDefault();
+
+      var formData = new FormData(formEl);
+      var data = Object.fromEntries(formData);
+
+      fetch("https://reqres.in/api/users", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+        body: JSON.stringify(data)
+      }).then(res => res.json())
+              .then(data => console.log(data))
+    })
+  </script>
+
+  <!--Footer-->
+  <footer>
+    <div class = "footerContainer">
+      <div class="socialIcons">
+        <a href=""><i class ="fa-brands fa-facebook"></i></a>
+        <a href=""><i class ="fa-brands fa-instagram"></i></a>
+        <a href=""><i class ="fa-brands fa-twitter"></i></a>
+        <a href=""><i class ="fa-brands fa-youtube"></i></a>
+        <a href=""><i class ="fa-brands fa-tiktok"></i></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a class="active" href="Index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a class="active" href="../html/sell.html">Sell</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerBottom">
+      <p>Copyright &copy;2023 Designed by <span class="designer">Sebastian Mule</span></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>  
